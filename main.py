@@ -58,7 +58,7 @@ print(f"Original features: {X.shape[1]}")
 print(f"Selected features: {X_var.shape[1]}")
 print(f"Selected indices: {selected_indices}")
 
-X = X_var
+# X = X_var
 
 alphas = np.array([0.1, 1, 10, 100, 1000])
 lasso_cv_acc = []
